@@ -1,6 +1,10 @@
 /* CUSTOM PROPERTIES */
 :root {
-
+    --hero-header-color:rgb(180, 208, 230);
+    --black-color: rgb(0, 0, 0);
+    --button-color: rgb(0, 97, 254);
+    --white-color: rgb(255, 255, 255);
+    --gray-color: rgb(205, 205, 205);
 }
 /* CUSTOM PROPERTIES */
 
@@ -24,8 +28,71 @@ body {
 
 /* LAYOUT */
 
-/* LAYOUT */
+/* header */
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(128, 128, 128);
+    height: 80px;
+}
+.header-sx {
+    background-color: rgb(153, 153, 153);
+    height: 80px;
+    width: 30%;
+}
+.header-dx {
+    background-color: rgb(142, 142, 142);
+    height: 80px;
+    width: 30%;
+}
+/* header */
 
-/* UTILITIES */
+/* hero header */
+.bg {
+    background-color: var(--hero-header-color);
+    width: 100%;
+    height: 500px;
+}
 
-/* UTILITIES */
+.title{
+    width: 60%;
+    height: 90px;
+    background-color: var(--gray-color);
+}
+
+.flex-hero {
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+    text-align: center;
+    padding-top: 160px;
+    padding-left: 380px;
+}
+
+.paragraph {
+    background-color: var(--gray-color);
+    width: 20%;
+    height: 400px;
+    margin-right: 10px;
+}
+
+.image {
+    background-color: var(--gray-color);
+    width: 50%;
+    height: 400px;
+}
+/* hero header */
+
+/* main */
+.flex-first {
+    display: flex;
+    align-content: space-between;
+    background-color: var(--white-color);
+    max-width: 100%;
+    height: 2000px;
+}
+/* main */
+
+/* footer */
+
+/* footer */
