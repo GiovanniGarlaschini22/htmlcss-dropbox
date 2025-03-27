@@ -31,7 +31,6 @@ body {
     width: 80%;
     max-width: 1000px;
     margin: 0 auto;
-    border: 1px solid var(--black-color);
 }
 
 .flex {
@@ -64,7 +63,11 @@ body {
 }
 
 [class^="col-"] {
-    border: 3px solid var(--black-color);
+    border: 0px solid var(--black-color);
+}
+
+.py-20 {
+    padding-top: 20px;
 }
 
 .py-50 {
@@ -72,8 +75,9 @@ body {
     padding-bottom: 50px;
 }
 
-.py-20 {
+.pb-50 {
     padding-top: 20px;
+    padding-bottom: 50px;
 }
 
 .mb-30 {
@@ -96,6 +100,17 @@ body {
 .nav {
     align-items: center;
     text-align: center;
+}
+
+.paragraph {
+    font-size: small;
+    line-height: 15px;
+}
+
+.blue-button {
+    color: var(--white-color);
+    background-color: var(--button-color);
+    padding: 10px 10px 10px 10px;
 }
 /* UTILITIES */
 
@@ -143,6 +158,22 @@ body {
 .hero {
     background-color: var(--hero-header-color);
     padding: 40px 0;
+}
+
+.title-hero {
+    font-size: 3rem;
+    line-height: 60px;
+}
+
+.p-hero {
+    padding-top: 30px;
+    font-weight: lighter;
+}
+
+.arrow {
+    font-weight: bold;
+    font-size: 4rem;
+    padding-top: 90px;
 }
 /* hero header */
 
