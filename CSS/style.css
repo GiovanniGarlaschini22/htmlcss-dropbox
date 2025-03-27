@@ -112,6 +112,12 @@ body {
     background-color: var(--button-color);
     padding: 10px 10px 10px 10px;
 }
+
+.card {
+   border: 2px solid;
+   border-color: #e0e0e0;
+   margin-top: 20px;
+}
 /* UTILITIES */
 
 /* header */
@@ -178,6 +184,11 @@ body {
 /* hero header */
 
 /* plans section */
+.plans-line {
+    width: 100%;
+    color: var(--gray-color);
+    margin-top: 10px;
+}
 /* plans section */
 
 /* partner section */
@@ -201,5 +212,15 @@ body {
 .footer .divider {
     margin: 40px 0 20px;
     width: 8%;
+}
+
+.text-list {
+    font-size: small;
+    padding-top: 10px;
+}
+
+.italiano {
+    color: var(--white-color);
+    
 }
 /* footer */
