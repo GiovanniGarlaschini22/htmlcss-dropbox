@@ -92,6 +92,11 @@ body {
     color: var(--white-color);
     list-style: none;
 }
+
+.nav {
+    align-items: center;
+    text-align: center;
+}
 /* UTILITIES */
 
 /* header */
@@ -99,7 +104,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 80px;
+    height: 70px;
     background-color: var(--white-color);
     padding: 0 30px;
 }
@@ -107,6 +112,22 @@ body {
     list-style: none;
     display: flex;
     gap: 20px;
+}
+.logo {
+    max-width: 70%;
+}
+.text-nav {
+    text-decoration: none;
+    color: var(--black-color);
+    font-size: small;
+}
+.button {
+    background-color: var(--button-color);
+    padding: 5px 5px 5px 5px;
+    color: var(--white-color);
+    font-size: small;
+    text-decoration: none;
+
 }
 /* header */
 
